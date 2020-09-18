@@ -30,8 +30,8 @@ The build is minified and the filenames include the hashes.<br>
 
 Your app is ready to be deployed.
 
-### Usage
+## Usage
 
-Start the project, search for an issue.
-While in the input, you can move with the arrow-keys up and down through the options.
+Start the project, search for an issue.<br>
+While in the input, you can move with the arrow-keys up and down through the options.<br>
 Press enter or click an option to show the issue in the right side of the page.
