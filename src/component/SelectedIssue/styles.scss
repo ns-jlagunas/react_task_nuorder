@@ -1,0 +1,28 @@
+.selected {
+  margin-left: 1rem;
+  height: 100%;
+  max-width: 70%;
+  flex-basis: 100%;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  &__title {
+    font-weight: bold;
+    font-size: 1.75rem;
+  }
+  &__url {
+    display: block;
+    margin-bottom: 3rem;
+  }
+  &__labels {
+    margin-top: 2rem;
+    > span:first-child {
+      font-style: italic;
+    }
+  }
+  &__created {
+    margin-top: 4rem;
+  }
+}

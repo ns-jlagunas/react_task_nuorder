@@ -1,0 +1,47 @@
+.autocomplete {
+  max-width: 30%;
+  flex-basis: 100%;
+  padding: 1rem;
+  padding-top: 0;
+
+  &__list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 50vh;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.input {
+  height: 2rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #2fc8bf;
+  padding-left: 1rem;
+}
+
+.issue {
+  font-size: 1rem;
+  height: 2rem;
+  line-height: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0.4rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: 0.2s all ease-in-out;
+  box-sizing: content-box;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #999999;
+  }
+
+  &--selected {
+    color: #ffffff;
+    background-color: #323232;
+  }
+}

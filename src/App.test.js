@@ -1,9 +1,11 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { shallow } from "enzyme";
+import App from "./App";
+import AutoComplete from "./component/AutoComplete";
+import SelectedIssue from "./component/SelectedIssue";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("renders succesfully", () => {
+  const wrapper = shallow(<App />);
+  expect(wrapper.find(AutoComplete)).toHaveLength(1);
+  expect(wrapper.find(SelectedIssue)).toHaveLength(1);
 });
